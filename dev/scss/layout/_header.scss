@@ -1,3 +1,34 @@
 /* =============
     Header
 ============= */
+header{
+    #logo-nav{
+        display: grid;
+        grid-template-rows: 16px auto 16px;
+        grid-template-areas: ". logo-nav .";
+        background: var(--lightblue3);
+        padding: 24px 0 24px;
+        margin-left: 16px;
+        
+        >div{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            gap: 120px;
+            
+            width: 371.88px;
+            height: 29px;
+           
+        }
+
+        #shopping-bag{
+margin-right: 24px;
+
+
+
+        }
+    }
+}
+
