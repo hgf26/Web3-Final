@@ -64,7 +64,6 @@
     }
 
     #add-button{
-        
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -72,6 +71,7 @@
         margin: auto 122px;
         background-color: var(--teal1);
         border-radius: 25px;
+        color: white;
        
     }
         
@@ -85,16 +85,7 @@
         border-radius: 25px;
         margin-bottom: 48px;
         
-//         .accordion {
-// width: 100%;
-//  display: flex;
-// flex-direction: row;
-// align-items: flex-start;
-// padding: 0px;
-// gap: 16px;
 
-// width: 424px;
-// height: 73px;
           
           
 .accordion {
@@ -148,6 +139,19 @@
             height: 100%;
            margin-bottom: 88px;
            padding-top: 48px;
+
+           .feature-text{
+
+            display: flex;
+            flex-direction: column;
+            padding: 16px 0px;
+            gap: 16px;
+      
+           }
+
+        
+
+      
         
     }
 }

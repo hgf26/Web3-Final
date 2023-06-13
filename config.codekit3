@@ -394,6 +394,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/related\/product1.png" : {
+      "ft" : 32768,
+      "iS" : 23940,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/related\/product1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/related\/product2.jpg" : {
       "ft" : 16384,
       "iS" : 48540,
@@ -407,6 +420,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/related\/product2.png" : {
+      "ft" : 32768,
+      "iS" : 66819,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/related\/product2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/related\/product3.jpg" : {
       "ft" : 16384,
       "iS" : 48890,
@@ -418,6 +444,19 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/related\/product3.png" : {
+      "ft" : 32768,
+      "iS" : 61998,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/related\/product3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
       "rq" : 75
     },
     "\/deploy\/img\/reviews\/profile1.jpg" : {
@@ -498,14 +537,27 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/reviews\/text\/ratings.jpg" : {
+      "ft" : 16384,
+      "iS" : 18419,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/reviews\/text\/ratings.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/reviews\/text\/ratings.png" : {
       "ft" : 32768,
       "iS" : 2963,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/reviews\/text\/ratings.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
@@ -529,6 +581,14 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/deploy\/thankyou.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/thankyou.html",
+      "oF" : 0
     },
     "\/dev\/Checkout.kit" : {
       "cB" : 0,
@@ -816,6 +876,18 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/related.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/scss\/sections\/related-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/dev\/scss\/sections\/related.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -831,6 +903,18 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/reviews.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/scss\/sections\/reviews-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/dev\/scss\/sections\/reviews.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -841,6 +925,21 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/dev\/scss\/sections\/reviews.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/thankyou.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/scss\/sections\/thankyou.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -860,6 +959,14 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/dev\/thankyou.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/thankyou.html",
+      "oF" : 2
     }
   },
   "hooks" : [

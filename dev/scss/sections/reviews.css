@@ -1,0 +1,89 @@
+#review1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 8px;
+  gap: 16px;
+  background-color: var(--lightblue1);
+  margin: 32px;
+  padding: 24px;
+  border-radius: 25px;
+}
+#review1 div {
+  background-image: url("../img/reviews/profile9.jpg");
+}
+
+#review2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 8px;
+  gap: 16px;
+  background-color: var(--lightblue1);
+  margin: 32px;
+  padding: 24px;
+  border-radius: 25px;
+}
+#review2 div {
+  background-image: url("../img/reviews/profile2.jpg");
+}
+
+#review3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 8px;
+  gap: 16px;
+  background-color: var(--lightblue1);
+  margin: 32px;
+  padding: 24px;
+  border-radius: 25px;
+}
+#review3 div {
+  background-image: url("../img/reviews/profile4.jpg");
+}
+
+#review4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 8px;
+  gap: 16px;
+  background-color: var(--lightblue1);
+  margin: 32px;
+  padding: 24px;
+  border-radius: 25px;
+}
+#review4 div {
+  background-image: url("../img/reviews/profile1.jpg");
+}
+
+#review5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 8px;
+  gap: 16px;
+  background-color: var(--lightblue1);
+  margin: 32px;
+  padding: 24px;
+  border-radius: 25px;
+}
+#review5 div {
+  background-image: url("../img/reviews/profile5.jpg");
+}
+
+#review6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 8px;
+  gap: 16px;
+  background-color: var(--lightblue1);
+  margin: 32px;
+  padding: 24px;
+  border-radius: 25px;
+}
+#review6 div {
+  background-image: url("../img/reviews/profile3.jpg");
+}

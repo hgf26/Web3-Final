@@ -3,7 +3,7 @@
 ============= */
 .blue-link:link, .blue-link:visited{
     display: inline-block;
-    margin-top: 8px;
+   margin: 8px;
     border-radius: 25px;
     color: white;
     font-weight: 600;
@@ -19,10 +19,11 @@
 
 .blue-button{
     background-color: var(--teal1);
-    padding: 12px 16px;
+    padding: 12px 24px;
     display: inline-block;
     margin-top: 8px;
     color: White;
+    border-radius: 25px;
     font-weight: 600;
     font-size: rem-calc(14);
     transition: 0.25s;
