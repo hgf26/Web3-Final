@@ -138,11 +138,6 @@
                 text-align: center;
               } 
         }
-        .grid{
-          @include lg{
-            display: grid;
-            grid-template-rows: 16px auto 16px;
-            grid-template-areas: 
-            "c1 c2 c3" 
-        }
-      }
+      
+      
+  

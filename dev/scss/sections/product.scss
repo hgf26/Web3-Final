@@ -73,7 +73,7 @@
     background-color: var(--teal1);
     border-radius: 25px;
     color: white;
-  }
+  } 
 
   #description {
     display: grid;
@@ -115,10 +115,7 @@
       display: block;
     }
 
-    @include lg {
-     
 
-    }
 
     
   }

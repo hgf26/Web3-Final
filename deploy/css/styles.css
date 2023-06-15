@@ -790,14 +790,6 @@ footer {
   text-align: center;
 }
 
-@media (min-width: 1024px) {
-  .grid {
-    display: grid;
-    grid-template-rows: 16px auto 16px;
-    grid-template-areas: "c1 c2 c3";
-  }
-}
-
 #section-text {
   margin-top: 88px;
   padding-bottom: 24px;
