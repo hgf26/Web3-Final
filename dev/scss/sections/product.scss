@@ -1,168 +1,149 @@
-#product{
-    background-color: var(--teal4);
-    color: white;
-    
-    #product-header{
+#product {
+  background-color: var(--teal4);
+  color: white;
+
+  #product-header {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    text-align: left;
+
+    .product-title {
+      display: flex;
+      flex-direction: column;
+      margin-left: 24px;
+      padding: 32px 0px;
+      gap: 16px;
+
+      @include lg {
+        grid-template-columns: auto 1200px auto;
+        font-size: large;
+        padding: 72px;
+      }
+    }
+  }
+
+  #product-img {
+    background-image: url("../img/product/product.png");
+    background-size: cover;
+    width: 330px;
+    height: 113px;
+    background-position: center;
+    margin: 16px;
+
+    @include lg {
+      width: 757px;
+      height: 255px;
+      margin-left: 72px;
+    }
+  }
+
+  #img-gallery {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    border-radius: 25px;
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+        "g1 g2"
+        "g3 g4";
+      grid-gap: 24px;
+      padding: 32px 32px;
+      margin-top: 24px;
+
+      @include lg {
         display: grid;
-        grid-template-columns: 16px auto 16px;
-        text-align: left;
-        
-
-       .product-title{
-        display: flex;
-        flex-direction: column;
-        margin-left: 24px;
-        padding: 32px 0px;
-        gap: 16px;
-
-        @include lg{
-          grid-template-columns: auto 1200px auto; 
-          font-size: large; 
-          padding:72px;
-       }
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "g1 g2 g3 g4";
+        grid-gap: 24px;
+        padding: 32px;
+        margin-top: 24px;
+        margin-left: 65px;
+      }
     }
-}
-
-    #product-img{
-        background-image: url("../img/product/product.png");
-        background-size: cover;
-        width: 330px;
-        height: 113px;
-        background-position: center;
-        margin: 16px;
-
-        @include lg{
-          width: 757px;
-          height: 255px;
-          margin-left: 72px;
-        
-        }
-    }
-
-    
-        #img-gallery{
-            display: grid;
-            grid-template-columns: 16px auto 16px;
-            border-radius: 25px;
-      
-
-            .grid-container {
-                
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                grid-template-areas: 
-                "g1 g2"
-                "g3 g4";
-                grid-gap:24px;
-                padding: 32px 32px;
-                margin-top: 24px;
-
-                @include lg{
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                    grid-template-areas: 
-                    "g1 g2 g3 g4";
-                    grid-gap: 24px;
-                padding: 32px;
-                margin-top: 24px;
-                margin-left: 65px;
-                }
-        }
-    }
-
-    #add-button{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding: 8px 24px;
-        margin: auto 122px;
-        background-color: var(--teal1);
-        border-radius: 25px;
-        color: white;
-       
-    }
-        
-
-    #description{
-        display: grid;
-        padding: 16px;
-        margin-top: 32px;
-        margin: 24px;
-        background-color: var(--green1);
-        border-radius: 25px;
-        margin-bottom: 48px;
-        
-
-          
-          
-.accordion {
-    width: 100%;
-  }
-  
-  .accordion-toggle {
-    display: none;
-  }
-  
-  .accordion-header {
-    display: block;
-    background-color: var(--green2);
-    border-radius: 10px;
-    margin-top: 8px;
-
-    padding: 10px;
-    cursor: pointer;
-  }
-  
-  .accordion-content {
-    display: none;
-    padding: 10px;
-    
-    
-  }
-  
-  .accordion-toggle:checked + .accordion-header {
-    background-color: var(--green2)
-  }
-  
-  .accordion-toggle:checked + .accordion-header + .accordion-content {
-    display: block;
   }
 
-  @include lg{
+  #add-button {
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+    padding: 8px 24px;
+    margin: auto 122px;
+    background-color: var(--teal1);
+    border-radius: 25px;
+    color: white;
   }
-    }   
-       
 
+  #description {
+    display: grid;
+    padding: 16px;
+    margin-top: 32px;
+    margin: 24px;
+    background-color: var(--green1);
+    border-radius: 25px;
+    margin-bottom: 48px;
 
-    #info-graphic{
-        display: grid;
-        grid-template-columns: 16px auto 16px;
-        grid-template-areas: ". inf-graphic .";
-        background-color: white;
-        color: black;
-
-      
-            grid-area: hero-aside;
-            display: flex;
-            flex-direction: column;
-            padding: 16px;
-            height: 100%;
-           margin-bottom: 88px;
-           padding-top: 48px;
-
-           .feature-text{
-
-            display: flex;
-            flex-direction: column;
-            padding: 16px 0px;
-            gap: 16px;
-      
-           }
-
-        
-
-      
-        
+    .accordion {
+      width: 100%;
     }
+
+    .accordion-toggle {
+      display: none;
+    }
+
+    .accordion-header {
+      display: block;
+      background-color: var(--green2);
+      border-radius: 10px;
+      margin-top: 8px;
+
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .accordion-content {
+      display: none;
+      padding: 10px;
+    }
+
+    .accordion-toggle:checked + .accordion-header {
+      background-color: var(--green2);
+    }
+
+    .accordion-toggle:checked + .accordion-header + .accordion-content {
+      display: block;
+    }
+
+    @include lg {
+     
+
+    }
+
+    
+  }
+  
+
+  #info-graphic {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". inf-graphic .";
+    background-color: white;
+    color: black;
+
+    grid-area: hero-aside;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    height: 100%;
+    margin-bottom: 88px;
+    padding-top: 48px;
+
+    .feature-text {
+      display: flex;
+      flex-direction: column;
+      padding: 16px 0px;
+      gap: 16px;
+    }
+  }
 }

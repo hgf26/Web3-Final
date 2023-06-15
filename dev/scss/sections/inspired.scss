@@ -11,7 +11,7 @@
 
 
 
-#card1{
+#c1{
     background-color: var(--teal2);
     margin: 32px;
     padding: 24px;
@@ -32,7 +32,7 @@
         background-size: cover;
         margin-right: 10px;
        
-      }
+      } 
       
       .user-name {
         margin: 0;
@@ -54,7 +54,7 @@
 
 }
 
-#card2{
+#c2{
         background-color: var(--teal2);
         margin: 32px;
         padding: 24px;
@@ -97,7 +97,7 @@
     }
 
 
-    #card3{
+    #c3{
             background-color: var(--teal2);
             margin: 32px;
             padding: 24px;
@@ -136,7 +136,13 @@
                 color: white;
                 margin-top: 16px ;
                 text-align: center;
-              }
-
-            
+              } 
         }
+        .grid{
+          @include lg{
+            display: grid;
+            grid-template-rows: 16px auto 16px;
+            grid-template-areas: 
+            "c1 c2 c3" 
+        }
+      }

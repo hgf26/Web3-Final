@@ -416,10 +416,6 @@ ul li {
   margin-right: 56px;
 }
 
-.single-line {
-  white-space: nowrap;
-}
-
 /* =============
     Typography
 ============= */
@@ -458,6 +454,7 @@ h1, h2, h3, h4, h5, p {
   font-weight: 600;
   font-size: 0.875rem;
   transition: 0.25s;
+  margin-bottom: 16px;
 }
 .blue-button:hover {
   background-color: var(--darkteal);
@@ -659,11 +656,6 @@ footer {
 #product #description .accordion-toggle:checked + .accordion-header + .accordion-content {
   display: block;
 }
-@media (min-width: 1024px) {
-  #product #description {
-    flex-direction: row;
-  }
-}
 #product #info-graphic {
   display: grid;
   grid-template-columns: 16px auto 16px;
@@ -693,18 +685,18 @@ footer {
   gap: 8px;
 }
 
-#card1 {
+#c1 {
   background-color: var(--teal2);
   margin: 32px;
   padding: 24px;
   border-radius: 25px;
 }
-#card1 .profile {
+#c1 .profile {
   display: flex;
   align-items: center;
   padding-bottom: 16px;
 }
-#card1 .profile-image {
+#c1 .profile-image {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -712,34 +704,34 @@ footer {
   background-size: cover;
   margin-right: 10px;
 }
-#card1 .user-name {
+#c1 .user-name {
   margin: 0;
   font-size: 18px;
   color: white;
 }
-#card1 .card-photo {
+#c1 .card-photo {
   height: 345px;
   background-image: url("../img/inspired/bench.jpg");
   background-size: cover;
 }
-#card1 .card-paragraph {
+#c1 .card-paragraph {
   color: white;
   margin-top: 16px;
   text-align: center;
 }
 
-#card2 {
+#c2 {
   background-color: var(--teal2);
   margin: 32px;
   padding: 24px;
   border-radius: 25px;
 }
-#card2 .profile {
+#c2 .profile {
   display: flex;
   align-items: center;
   padding-bottom: 16px;
 }
-#card2 .profile-image {
+#c2 .profile-image {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -747,34 +739,34 @@ footer {
   background-size: cover;
   margin-right: 10px;
 }
-#card2 .user-name {
+#c2 .user-name {
   margin: 0;
   font-size: 18px;
   color: white;
 }
-#card2 .card-photo {
+#c2 .card-photo {
   height: 345px;
   background-image: url("../img/inspired/chairs.jpg");
   background-size: cover;
 }
-#card2 .card-paragraph {
+#c2 .card-paragraph {
   color: white;
   margin-top: 16px;
   text-align: center;
 }
 
-#card3 {
+#c3 {
   background-color: var(--teal2);
   margin: 32px;
   padding: 24px;
   border-radius: 25px;
 }
-#card3 .profile {
+#c3 .profile {
   display: flex;
   align-items: center;
   padding-bottom: 16px;
 }
-#card3 .profile-image {
+#c3 .profile-image {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -782,20 +774,28 @@ footer {
   background-size: cover;
   margin-right: 10px;
 }
-#card3 .user-name {
+#c3 .user-name {
   margin: 0;
   font-size: 18px;
   color: white;
 }
-#card3 .card-photo {
+#c3 .card-photo {
   height: 345px;
   background-image: url("../img/inspired/nightstand.jpg");
   background-size: cover;
 }
-#card3 .card-paragraph {
+#c3 .card-paragraph {
   color: white;
   margin-top: 16px;
   text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    display: grid;
+    grid-template-rows: 16px auto 16px;
+    grid-template-areas: "c1 c2 c3";
+  }
 }
 
 #section-text {
@@ -1010,6 +1010,15 @@ shipping-info {
   padding: 16px;
 }
 
+#ordersummary {
+  margin: 16px;
+  margin-top: 160px;
+  background-color: var(--green2);
+  padding: 16px;
+  border-radius: 25px;
+  gap: 16px;
+}
+
 #code {
   display: flex;
   flex-direction: column;
@@ -1020,4 +1029,30 @@ shipping-info {
 
 #delivery {
   background-color: var(--teal2);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 8px;
+  border-radius: 25px;
+  margin: 24px;
+}
+#delivery div {
+  background-image: url("../img/checkout/map.jpg");
+  background-size: cover;
+  width: 232px;
+  height: 134px;
+}
+
+#thankyou {
+  background-color: var(--green1);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 25px;
+  gap: 8px;
+  border-radius: 25px;
+  margin: 24px;
 }
