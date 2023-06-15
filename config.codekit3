@@ -17,6 +17,14 @@
       "oAP" : "\/deploy\/Checkout.html",
       "oF" : 0
     },
+    "\/deploy\/confirm.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/confirm.html",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -582,6 +590,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/deploy\/purchase.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/purchase.html",
+      "oF" : 0
+    },
     "\/deploy\/thankyou.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -596,6 +612,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/Checkout.html",
+      "oF" : 2
+    },
+    "\/dev\/confirm.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/confirm.html",
       "oF" : 2
     },
     "\/dev\/content\/inspired.kit" : {
@@ -846,6 +870,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/confirm.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/confirm.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/sections\/inspired.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -876,18 +915,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/related.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/scss\/sections\/related-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/dev\/scss\/sections\/related.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -902,18 +929,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/dev\/scss\/sections\/reviews.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/scss\/sections\/reviews-min.css",
-      "oF" : 0,
-      "pg" : 0
     },
     "\/dev\/scss\/sections\/reviews.scss" : {
       "aP" : 0,
@@ -938,7 +953,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/thankyou.css",
       "oF" : 0,
       "oS" : 0,

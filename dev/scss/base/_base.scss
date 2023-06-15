@@ -78,9 +78,15 @@ list-style: none;
      }
 
      .overall-reviews{
-       padding: 16px;
-     background-color: var(--lightblue1);
+    padding: 16px;
+     background-color: var(--lightblue2);
      margin-left: 56px;
      margin-right: 56px;
+   
+    
      
+     }
+
+     #rounded-edge{
+        border-radius: 25px;
      }

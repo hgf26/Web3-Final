@@ -87,3 +87,24 @@
 #review6 div {
   background-image: url("../img/reviews/profile3.jpg");
 }
+
+#overall-reviews {
+  padding: 16px;
+  background-color: var(--lightblue1);
+  margin-left: 56px;
+  margin-right: 56px;
+  border-radius: 25px;
+}
+
+#customer-reviews {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 8px;
+  gap: 16px;
+  background-color: var(--lightblue2);
+}
+
+#text-box {
+  background-color: var(--lightblue1);
+}
