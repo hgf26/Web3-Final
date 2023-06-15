@@ -1,3 +1,15 @@
 #code{
-background-color: teal;
+display: flex;
+flex-direction: column;
+padding: 16px;
+margin-bottom: 32px;
+margin-top: 16px;
+}
+
+
+
+#delivery{
+background-color: var(--teal2);
+
+   
 }

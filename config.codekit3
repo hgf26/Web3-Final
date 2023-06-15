@@ -63,6 +63,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/checkout\/saw1.png" : {
+      "ft" : 32768,
+      "iS" : 7928,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/checkout\/saw1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/checkout\/saw2.png" : {
+      "ft" : 32768,
+      "iS" : 7590,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/checkout\/saw2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/checkout\/Sawimage1.jpg" : {
       "ft" : 16384,
       "iS" : 6644,

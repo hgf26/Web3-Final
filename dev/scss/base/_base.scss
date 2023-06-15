@@ -82,11 +82,10 @@ list-style: none;
      background-color: var(--lightblue2);
      margin-left: 56px;
      margin-right: 56px;
-   
-    
      
+
      }
 
-     #rounded-edge{
-        border-radius: 25px;
-     }
+     .single-line {
+        white-space: nowrap;
+      }

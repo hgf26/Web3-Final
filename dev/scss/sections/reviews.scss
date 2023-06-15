@@ -18,7 +18,6 @@
  }
 
 
-
 #review2{
     display: flex;
     flex-direction: column;
@@ -102,24 +101,34 @@
     }
 }
 
-#overall-reviews{
-    padding: 16px;
-     background-color: var(--lightblue1);
-     margin-left: 56px;
-     margin-right: 56px;
-     border-radius: 25px;
-}
 
 #customer-reviews{
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 12px 8px;
-    gap: 16px; 
-    background-color: var(--lightblue2);
-
+    gap: 16px;
+    padding-left: 56px;
+  
+   
 }
 
+#graph{
+   
+  padding-left: 28px;
+  padding-bottom: 32px;
+  
+}
 #text-box{
     background-color: var(--lightblue1);
+    border-radius: 25px;
+    padding: 16px;
+    padding-bottom: 40px;
+    margin: 16px;
+
+    .center-heading {
+        text-align: center;
+      }
+  
 }
+

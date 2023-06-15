@@ -1,71 +1,125 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <!-- @import "global/head.kit" -->
 
 <body>
 
-<!-- @import "global/header.kit" -->
+    <!-- @import "global/header.kit" -->
 
-<!-- @import "global/footer.kit" -->
- <!-- @import "global/scripts.kit" -->
-    
+
+    <!-- Checkout info -->
+    <section id="checkout">
+        <ul>
+            <li>
+                <form class="form">
+                    <h1 class="headers">Contact Info</h1>
+                    <ul>
+                        <li>
+                            <input type="text" name="firstName" placeholder="First Name">
+                            <label for="firstName"></label>
+                        </li>
+                        <li>
+                            <input type="text" name="lastName" placeholder="Last Name">
+                            <label for="lastName"></label>
+                        </li>
+                        <li>
+                            <input type="email" name="email" placeholder="Email">
+                            <label for="email"></label>
+                        </li>
+                        <li>
+                            <input type="tel" name="phone" placeholder="Phone Number">
+                            <label for="phone"></label>
+                        </li>
+                    </ul>
+                </form>
+            </li>
+            <li>
+                <form class="form">
+                    <h1 class="headers">Payment</h1>
+                    <ul>
+                        <li>
+                            <input type="text" name="cardName" placeholder="Name on Card">
+                            <label for="cardName"></label>
+                        </li>
+                        <li>
+                            <input type="text" name="cardNumber" placeholder="xxxx xxxx xxxx xxxx">
+                            <label for="cardNumber"></label>
+                        </li>
+                        <li>
+                            <input type="text" name="expiry" placeholder="MM/YY">
+                            <label for="expiry"></label>
+                        </li>
+                        <li>
+                            <input type="text" name="cvv" placeholder="CVV">
+                            <label for="cvv"></label>
+                        </li>
+                    </ul>
+                </form>
+            </li>
+            <li>
+                <form class="form">
+                    <h1 class="headers">Shipping Info</h1>
+                    <ul>
+                        <li>
+                            <input type="text" name="shippingFirstName" placeholder="First Name">
+                            <label for="shippingFirstName"></label>
+                        </li>
+                        <li>
+                            <input type="text" name="shippingLastName" placeholder="Last Name">
+                            <label for="shippingLastName"></label>
+                        </li>
+                        <li>
+                            <input type="text" name="shippingNameOnCard" placeholder="Name on Card">
+                            <label for="shippingNameOnCard"></label>
+                        </li>
+                        <li>
+                            <input type="text" name="shippingAddress" placeholder="Apartment, Suite, etc.">
+                            <label for="shippingAddress"></label>
+                        </li>
+                        <li>
+                            <input type="text" name="shippingCountry" placeholder="Country/Region">
+                            <label for="shippingCountry"></label>
+                        </li>
+                        <li>
+                            <input type="text" name="shippingState" placeholder="State">
+                            <label for="shippingState"></label>
+                        </li>
+                        <li>
+                            <input type="text" name="shippingCity" placeholder="City">
+                            <label for="shippingCity"></label>
+                        </li>
+                        <li>
+                            <input type="text" name="shippingZipCode" placeholder="Zip Code">
+                            <label for="shippingZipCode"></label>
+                        </li>
+                    </ul>
+                </form>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Order summary -->
+    <section>
+       
+                <h1>Order Summary</h1>
+                <h2>Dovetail Saw With Cherry Handle</h2>
+                <h3>$175.00</h3>
+                <h2>Dovetail Saw With Dark Oak Handle</h2>
+                <h3>$175.00</h3>
+                <h4>+ Shipping</h4>
+                <h4>$12.50</h4>
+                <h4>Total:</h4>
+         <aside>
+            <a href="thankyou.html" class="blue-button">Place Order</a>
+         </aside>
+       
+    </section>
+
+    <!-- @import "global/footer.kit" -->
+    <!-- @import "global/scripts.kit" -->
+
 </body>
 
 </html>
 
-
-
 <section>
-  
-
-    <!-- checkout info -->
-    <Section>
-<ul>
-    <li>
-        <h1>Contact Info</h1>
-        <h2>First Name</h2>
-        <h2>Last Name</h2>
-        <h2>Email</h2>
-        <h2>Phone Number</h2>
-
-        <h1>Payment</h1>
-        <h2>Name on Card</h2>
-        <h2>xxxx xxxx xxxx xxxx</h2>
-        <h2>MM/YY</h2>
-        <h2>CVV</h2>
-
-        <h1>Shipping Info</h1>
-        <h2>First Name</h2>
-        <h2>Last Name</h2>
-        <h2>Name on Card</h2>
-        <h2>Apartment, Suite, etc.</h2>
-        <h2>country/region</h2>
-        <h2>state</h2>
-        <h2>city</h2>
-        <h2>zip Code</h2>
-    </li>
-</ul>
-    </Section>
-
-    <!-- order summary -->
-    <section>
-<ul>
-    <li>
-        <h1>Order Summary</h1>
-        <h2>Dovetail Saw With Cherry Handle</h2>
-        <h3>$175.00</h3>
-
-        <h2>Dovetail Saw With Dark Oak Handel</h2>
-        <h3>$175.00</h3>
-
-        <h4>+Shipping</h4>
-        <h4>$12.50</h4>
-        <h4>Total:</h4>
-        <h4>$362.50</h4>
-    </li>
-</ul>
- 
-        <a href="thankyou.html" class="blue-link" >Place Order</a>
-
-    </section>

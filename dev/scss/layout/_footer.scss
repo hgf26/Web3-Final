@@ -1,6 +1,53 @@
+
 /* =============
     Footer
 ============= */
 #left-side{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 32px;
+    gap: 8px;
 background-color: var(--teal2);
+
 }
+
+#right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    padding: 32px;
+    gap: 8px;
+background-color: var(--teal2);
+
+
+div{
+    background-image: url("../img/logos/logo.jpg");
+    background-size: 100%; 
+width: 100%;
+height: 41px;
+margin-top: 150px;
+
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px ;
+
+}
+
+.spacing{
+    padding: 16px
+}
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#left-side, #right-side {
+  flex: 1;
+}
+
